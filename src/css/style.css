@@ -13,11 +13,18 @@ header {
     background: #2925a1;
     align-items: center;
     justify-content: space-between;
+    height: 5rem;
 }
 
 header a img {
-    width: 50px;
+    width: 45px;
+    margin-left: 20px;
+    margin-top: 5px;
     transition: 0.3s ease;
+}
+
+header a img:hover {
+    transform: scale(1.05);
 }
 
 a {
@@ -58,6 +65,15 @@ a:hover {
     gap: 15px;
 }
 
+.videos iframe,
+.videos video {
+    background: black;
+    width: 60%;
+    max-width: 400px;
+    border: rgb(201, 231, 255) 10px solid;
+    border-radius: 5px;
+}
+
 .area {
     flex-direction: column;
     gap: 3rem;
@@ -68,4 +84,14 @@ a:hover {
     padding: 1rem;
     width: 80%;
     text-align: center;
+}
+
+@media only screen and (max-width: 620px) {
+    nav {
+        visibility: hidden;
+    }
+
+    header {
+
+    }
 }

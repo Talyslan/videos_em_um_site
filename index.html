@@ -17,9 +17,9 @@
         </a>
         <nav>
             <ul>
-                <li><a href="">Sobre nós</a></li>
-                <li><a href="">Videos Felizes</a></li>
-                <li><a href="">Contato</a></li>
+                <li><a href="#hosp-int">Hosp. Interna</a></li>
+                <li><a href="#hosp-ex1">Hosp. Externa 1</a></li>
+                <li><a href="#hosp-ex2">Hosp. Externa 2</a></li>
             </ul>
         </nav>
     </header>
@@ -31,33 +31,36 @@
             </div>
 
             <div class="area">
-                <div class="title">
-                    <h2>Vídeos com hospedagem externa do Youtube</h2>
+                <div class="title" id="hosp-int">
+                    <h2>Vídeos com hospedagem interna</h2>
                 </div>
 
                 <div class="videos">
                     <video controls preload="metadata">
-                        <source src="" type="">
-                        <source src="" type="">
+                        <source src="src/videos/chuva/Chuva.mkv" type="video/mkv">
+                        <source src="src/videos/chuva/Chuva.mp4" type="video/mp4">
+                        <source src="src/videos/chuva/Chuva.webm" type="video/webm">
                         <p>Seu navegador não suporta nenhum dos nossos tipos de vídeos.</p>
                     </video>
 
                     <video controls preload="metadata">
-                        <source src="" type="">
-                        <source src="" type="">
+                        <source src="src/videos/programando/Programando.mkv" type="video/mkv">
+                        <source src="src/videos/programando/Programando.mp4" type="video/mp4">
+                        <source src="src/videos/programando/Programando.webm" type="video/webm">
                         <p>Seu navegador não suporta nenhum dos nossos tipos de vídeos.</p>
                     </video>
 
                     <video controls preload="metadata">
-                        <source src="" type="">
-                        <source src="" type="">
+                        <source src="src/videos/mulher/Mulher.mkv" type="video/mkv">
+                        <source src="src/videos/mulher/Mulher.mp4" type="video/mp4">
+                        <source src="src/videos/mulher/Mulher.webm" type="video/webm">
                         <p>Seu navegador não suporta nenhum dos nossos tipos de vídeos.</p>
                     </video>
                 </div>
             </div>
 
             <div class="area">
-                <div class="title">
+                <div class="title" id="hosp-ex1">
                     <h2>Vídeos com hospedagem externa do Youtube</h2>
                 </div>
 
@@ -72,7 +75,7 @@
             </div>
         
             <div class="area">
-                <div class="title">
+                <div class="title" id="hosp-ex2">
                     <h2>Vídeos com hospedagem externa do Vímeo</h2>
                 </div>
 
@@ -95,6 +98,8 @@
         </div><!-- Fim do content  -->
     </main>
 
-    <footer></footer>    
+    <footer>
+        <p>Criado Por Talyslan C. P. Canabarro &copy;</p>
+    </footer>    
 </body>
 </html>
